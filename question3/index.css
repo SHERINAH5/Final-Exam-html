@@ -1,0 +1,12 @@
+body{
+    background-color: darkgoldenrod;
+
+}
+.form{
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

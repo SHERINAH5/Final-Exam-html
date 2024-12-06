@@ -1,0 +1,25 @@
+
+.navbar {
+    display: flex !important;
+    justify-content: center;
+    margin-top:0 ;
+    background-color: darkslategray ;
+    padding: 15px 30px;
+    top: 0;
+}  
+.navbar ul {
+    display: flex !important;
+    list-style-type: none;
+    padding: 5 20px;
+    margin:0 ;
+    
+}
+.navbar li {
+      margin: 0 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: coral;
+    font-weight: bolder;
+    font-size: 30px;
+}

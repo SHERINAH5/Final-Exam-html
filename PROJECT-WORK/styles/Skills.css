@@ -1,0 +1,52 @@
+body{
+     background-color: rgb(83, 83, 246);
+
+}
+.container{
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    width: 400px;
+    height: 200px;
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    display: flex ;
+    justify-content: center;
+    margin-top:0;
+    background-color: darkslategray ;
+    padding: 20PX 25PX;
+
+}   
+.navbar ul {
+    display: flex ;
+    list-style-type: none;
+    padding: 0;
+    margin:0 ;
+
+    
+}
+.navbar li {
+      margin: 0 15px;
+}
+.navbar a {
+    text-decoration: none;
+    color: rgb(205, 215, 205);
+    font-weight: bolder;
+    font-size: 30px;
+} 
+.sticky-header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.sticky-header a:hover{
+    background-color: orange;
+}
+.sticky-header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
